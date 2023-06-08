@@ -15,3 +15,9 @@ We maken deze keer terug zelf de database aan :
       * **Soortnaam : nvarchar(50), vereist  
       
 Als je de starterscode binnenhaalt, dan ga je merken dat er al heel wat code aanwezig is.  
+We zullen ons voornamelijk met 2 zaken nog moeten bezighouden : 
+  * Het vervolledigen van de service klasse **KachelService**.  
+    We gaan hier methoden toevoegen om de **Soorten** tabel te beheren (toevoegen, wijzigen en verwijderen van soorten).  
+    Hierbij gaan we speciale aandacht besteden aan volgende zaken : 
+    * Een soort dat nog in gebruik is in de kachel-tabel mag NIET verwijderd worden  
+    * Er mogen niet 2 keer dezelfde soortnamen voorkomen in de tabel Soorten.  
